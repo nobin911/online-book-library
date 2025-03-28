@@ -8,7 +8,6 @@ The **Books Library** project is a dynamic and user-friendly website that fetche
 - **CSS**: For styling and creating an engaging user interface.
 - **JavaScript**: For fetching data, processing it, and rendering dynamic content.
 
-## Total Marks: 15
 
 ---
 
