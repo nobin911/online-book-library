@@ -1,0 +1,60 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Online Library</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search Books..." />
+        <div id="search-icon" class="search-icon">🔍</div>
+      </div>
+    </header>
+    <main>
+      <h1>
+        "A reader lives a thousand lives before he dies . . . The man who never
+        reads lives only one." – George R.R. Martin.
+      </h1>
+
+      <ul>
+        <li>
+          <i class="ri-layout-grid-fill" id="viewBtn"></i>
+          <p id="btnText">Grid</p>
+        </li>
+
+        <li>
+          <i class="ri-sort-alphabet-asc" id="sortByTitle"></i>
+          <p>Sort-title</p>
+        </li>
+        <li>
+          <i class="ri-sort-number-desc" id="sortByDate"></i>
+          <p>Sort-date</p>
+        </li>
+      </ul>
+
+      <div id="booksContainer" class="booksContainer"></div>
+
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
